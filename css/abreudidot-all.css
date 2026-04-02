@@ -1,0 +1,353 @@
+/* AbreuDidot — All Optical Sizes — LenéllR&D Fonts
+   https://albinlenell.github.io/fonts/
+   All optical sizes: 06, 11, 16, 24, 42, 64, 96 */
+
+/* ── Optical Size 06 ────────────────────────── */
+
+@font-face {
+  font-family: 'AbreuDidot 06';
+  src: url('../woff2/AbreuDidot-06Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'AbreuDidot 06';
+  src: url('../woff2/AbreuDidot-06LightItalic.woff2') format('woff2');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'AbreuDidot 06';
+  src: url('../woff2/AbreuDidot-06Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'AbreuDidot 06';
+  src: url('../woff2/AbreuDidot-06MediumItalic.woff2') format('woff2');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'AbreuDidot 06';
+  src: url('../woff2/AbreuDidot-06Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'AbreuDidot 06';
+  src: url('../woff2/AbreuDidot-06BoldItalic.woff2') format('woff2');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* ── Optical Size 11 ────────────────────────── */
+
+@font-face {
+  font-family: 'AbreuDidot 11';
+  src: url('../woff2/AbreuDidot-11Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'AbreuDidot 11';
+  src: url('../woff2/AbreuDidot-11LightItalic.woff2') format('woff2');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'AbreuDidot 11';
+  src: url('../woff2/AbreuDidot-11Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'AbreuDidot 11';
+  src: url('../woff2/AbreuDidot-11MediumItalic.woff2') format('woff2');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'AbreuDidot 11';
+  src: url('../woff2/AbreuDidot-11Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'AbreuDidot 11';
+  src: url('../woff2/AbreuDidot-11BoldItalic.woff2') format('woff2');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* ── Optical Size 16 ────────────────────────── */
+
+@font-face {
+  font-family: 'AbreuDidot 16';
+  src: url('../woff2/AbreuDidot-16Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'AbreuDidot 16';
+  src: url('../woff2/AbreuDidot-16LightItalic.woff2') format('woff2');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'AbreuDidot 16';
+  src: url('../woff2/AbreuDidot-16Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'AbreuDidot 16';
+  src: url('../woff2/AbreuDidot-16MediumItalic.woff2') format('woff2');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'AbreuDidot 16';
+  src: url('../woff2/AbreuDidot-16Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'AbreuDidot 16';
+  src: url('../woff2/AbreuDidot-16BoldItalic.woff2') format('woff2');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* ── Optical Size 24 ────────────────────────── */
+
+@font-face {
+  font-family: 'AbreuDidot 24';
+  src: url('../woff2/AbreuDidot-24Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'AbreuDidot 24';
+  src: url('../woff2/AbreuDidot-24LightItalic.woff2') format('woff2');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'AbreuDidot 24';
+  src: url('../woff2/AbreuDidot-24Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'AbreuDidot 24';
+  src: url('../woff2/AbreuDidot-24MediumItalic.woff2') format('woff2');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'AbreuDidot 24';
+  src: url('../woff2/AbreuDidot-24Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'AbreuDidot 24';
+  src: url('../woff2/AbreuDidot-24BoldItalic.woff2') format('woff2');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* ── Optical Size 42 ────────────────────────── */
+
+@font-face {
+  font-family: 'AbreuDidot 42';
+  src: url('../woff2/AbreuDidot-42Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'AbreuDidot 42';
+  src: url('../woff2/AbreuDidot-42LightItalic.woff2') format('woff2');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'AbreuDidot 42';
+  src: url('../woff2/AbreuDidot-42Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'AbreuDidot 42';
+  src: url('../woff2/AbreuDidot-42MediumItalic.woff2') format('woff2');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'AbreuDidot 42';
+  src: url('../woff2/AbreuDidot-42Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'AbreuDidot 42';
+  src: url('../woff2/AbreuDidot-42BoldItalic.woff2') format('woff2');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* ── Optical Size 64 ────────────────────────── */
+
+@font-face {
+  font-family: 'AbreuDidot 64';
+  src: url('../woff2/AbreuDidot-64Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'AbreuDidot 64';
+  src: url('../woff2/AbreuDidot-64LightItalic.woff2') format('woff2');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'AbreuDidot 64';
+  src: url('../woff2/AbreuDidot-64Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'AbreuDidot 64';
+  src: url('../woff2/AbreuDidot-64MediumItalic.woff2') format('woff2');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'AbreuDidot 64';
+  src: url('../woff2/AbreuDidot-64Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'AbreuDidot 64';
+  src: url('../woff2/AbreuDidot-64BoldItalic.woff2') format('woff2');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* ── Optical Size 96 ────────────────────────── */
+
+@font-face {
+  font-family: 'AbreuDidot 96';
+  src: url('../woff2/AbreuDidot-96Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'AbreuDidot 96';
+  src: url('../woff2/AbreuDidot-96LightItalic.woff2') format('woff2');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'AbreuDidot 96';
+  src: url('../woff2/AbreuDidot-96Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'AbreuDidot 96';
+  src: url('../woff2/AbreuDidot-96MediumItalic.woff2') format('woff2');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'AbreuDidot 96';
+  src: url('../woff2/AbreuDidot-96Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'AbreuDidot 96';
+  src: url('../woff2/AbreuDidot-96BoldItalic.woff2') format('woff2');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
