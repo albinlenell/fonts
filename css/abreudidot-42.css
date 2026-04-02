@@ -1,0 +1,51 @@
+/* AbreuDidot 42 — LenéllR&D Fonts
+   https://albinlenell.github.io/fonts/
+   Optical size: 42 */
+
+@font-face {
+  font-family: 'AbreuDidot 42';
+  src: url('../woff2/AbreuDidot-42Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'AbreuDidot 42';
+  src: url('../woff2/AbreuDidot-42LightItalic.woff2') format('woff2');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'AbreuDidot 42';
+  src: url('../woff2/AbreuDidot-42Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'AbreuDidot 42';
+  src: url('../woff2/AbreuDidot-42MediumItalic.woff2') format('woff2');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'AbreuDidot 42';
+  src: url('../woff2/AbreuDidot-42Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'AbreuDidot 42';
+  src: url('../woff2/AbreuDidot-42BoldItalic.woff2') format('woff2');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
