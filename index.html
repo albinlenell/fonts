@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AbreuDidot — LenéllR&amp;D Fonts</title>
+
+  <!-- Load all optical sizes -->
+  <link rel="stylesheet" href="css/abreudidot-all.css">
+
+  <style>
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+    :root {
+      --bg: #faf9f7;
+      --fg: #1a1a1a;
+      --muted: #8a8a8a;
+      --border: #e0ddd8;
+      --accent: #2a2a2a;
+      --code-bg: #f0eeeb;
+      --max-w: 960px;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--fg);
+      font-family: 'AbreuDidot 11', Georgia, serif;
+      font-weight: 400;
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* ── Header ── */
+    header {
+      padding: 4rem 2rem 3rem;
+      max-width: var(--max-w);
+      margin: 0 auto;
+      border-bottom: 1px solid var(--border);
+    }
+
+    header .brand {
+      font-family: 'AbreuDidot 06', Georgia, serif;
+      font-weight: 500;
+      font-size: 0.75rem;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 1.5rem;
+    }
+
+    header h1 {
+      font-family: 'AbreuDidot 64', Georgia, serif;
+      font-weight: 300;
+      font-size: clamp(2.5rem, 6vw, 4.5rem);
+      line-height: 1.1;
+      letter-spacing: -0.02em;
+    }
+
+    header .subtitle {
+      font-family: 'AbreuDidot 16', Georgia, serif;
+      font-weight: 300;
+      font-style: italic;
+      font-size: 1.125rem;
+      color: var(--muted);
+      margin-top: 0.75rem;
+    }
+
+    /* ── Main ── */
+    main {
+      max-width: var(--max-w);
+      margin: 0 auto;
+      padding: 0 2rem;
+    }
+
+    /* ── Specimen Section ── */
+    .specimen-section {
+      padding: 3rem 0;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .specimen-section:last-of-type {
+      border-bottom: none;
+    }
+
+    .size-label {
+      font-family: 'AbreuDidot 06', Georgia, serif;
+      font-weight: 500;
+      font-size: 0.7rem;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 1rem;
+    }
+
+    .specimen-text {
+      margin-bottom: 0.5rem;
+      color: var(--fg);
+    }
+
+    .specimen-italic {
+      font-style: italic;
+    }
+
+    .weight-label {
+      font-family: 'AbreuDidot 06', Georgia, serif;
+      font-size: 0.65rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-top: 1.5rem;
+      margin-bottom: 0.25rem;
+    }
+
+    /* ── Usage Section ── */
+    .usage-section {
+      padding: 3rem 0;
+      border-top: 1px solid var(--border);
+    }
+
+    .usage-section h2 {
+      font-family: 'AbreuDidot 42', Georgia, serif;
+      font-weight: 300;
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .usage-section h3 {
+      font-family: 'AbreuDidot 16', Georgia, serif;
+      font-weight: 700;
+      font-size: 1rem;
+      margin-top: 2rem;
+      margin-bottom: 0.75rem;
+    }
+
+    .usage-section p {
+      font-family: 'AbreuDidot 11', Georgia, serif;
+      font-weight: 300;
+      font-size: 0.95rem;
+      line-height: 1.7;
+      color: var(--accent);
+      margin-bottom: 1rem;
+    }
+
+    pre {
+      background: var(--code-bg);
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      padding: 1rem 1.25rem;
+      overflow-x: auto;
+      font-family: 'SF Mono', 'Fira Code', 'Consolas', monospace;
+      font-size: 0.8rem;
+      line-height: 1.6;
+      margin-bottom: 1.5rem;
+      color: var(--fg);
+    }
+
+    code {
+      font-family: 'SF Mono', 'Fira Code', 'Consolas', monospace;
+      font-size: 0.85em;
+      background: var(--code-bg);
+      padding: 0.1em 0.35em;
+      border-radius: 3px;
+    }
+
+    /* ── Available Files Table ── */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1.5rem 0;
+      font-family: 'AbreuDidot 11', Georgia, serif;
+      font-size: 0.85rem;
+    }
+
+    th {
+      text-align: left;
+      font-weight: 500;
+      padding: 0.5rem 1rem 0.5rem 0;
+      border-bottom: 2px solid var(--fg);
+      font-family: 'AbreuDidot 06', Georgia, serif;
+      font-size: 0.7rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+    }
+
+    td {
+      padding: 0.4rem 1rem 0.4rem 0;
+      border-bottom: 1px solid var(--border);
+      font-weight: 300;
+    }
+
+    td code {
+      font-size: 0.8rem;
+    }
+
+    /* ── Footer ── */
+    footer {
+      max-width: var(--max-w);
+      margin: 0 auto;
+      padding: 2rem;
+      border-top: 1px solid var(--border);
+      text-align: center;
+    }
+
+    footer p {
+      font-family: 'AbreuDidot 06', Georgia, serif;
+      font-weight: 500;
+      font-size: 0.7rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--muted);
+    }
+
+    footer a {
+      color: var(--muted);
+      text-decoration: none;
+      border-bottom: 1px solid var(--border);
+    }
+
+    footer a:hover {
+      color: var(--fg);
+      border-color: var(--fg);
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="brand">LenéllR&amp;D Fonts</div>
+    <h1>AbreuDidot</h1>
+    <p class="subtitle">Seven optical sizes · Three weights · Italic companions</p>
+  </header>
+
+  <main>
+
+    <!-- ── Specimen: 06 ── -->
+    <section class="specimen-section">
+      <div class="size-label">AbreuDidot 06 — Caption / 6pt</div>
+      <div class="weight-label">Light 300</div>
+      <p class="specimen-text" style="font-family:'AbreuDidot 06',serif; font-weight:300; font-size:6pt;">
+        Typography is the craft of endowing human language with a durable visual form. The quick brown fox jumps over the lazy dog.
+      </p>
+      <p class="specimen-text specimen-italic" style="font-family:'AbreuDidot 06',serif; font-weight:300; font-size:6pt;">
+        Typography is the craft of endowing human language with a durable visual form. The quick brown fox jumps over the lazy dog.
+      </p>
+      <div class="weight-label">Medium 500</div>
+      <p class="specimen-text" style="font-family:'AbreuDidot 06',serif; font-weight:500; font-size:6pt;">
+        Typography is the craft of endowing human language with a durable visual form. The quick brown fox jumps over the lazy dog.
+      </p>
+      <div class="weight-label">Bold 700</div>
+      <p class="specimen-text" style="font-family:'AbreuDidot 06',serif; font-weight:700; font-size:6pt;">
+        Typography is the craft of endowing human language with a durable visual form. The quick brown fox jumps over the lazy dog.
+      </p>
+    </section>
+
+    <!-- ── Specimen: 11 ── -->
+    <section class="specimen-section">
+      <div class="size-label">AbreuDidot 11 — Body / 11pt</div>
+      <div class="weight-label">Light 300</div>
+      <p class="specimen-text" style="font-family:'AbreuDidot 11',serif; font-weight:300; font-size:11pt;">
+        Typography is the craft of endowing human language with a durable visual form. The quick brown fox jumps over the lazy dog.
+      </p>
+      <p class="specimen-text specimen-italic" style="font-family:'AbreuDidot 11',serif; font-weight:300; font-size:11pt;">
+        Typography is the craft of endowing human language with a durable visual form. The quick brown fox jumps over the lazy dog.
+      </p>
+      <div class="weight-label">Medium 500</div>
+      <p class="specimen-text" style="font-family:'AbreuDidot 11',serif; font-weight:500; font-size:11pt;">
+        Typography is the craft of endowing human language with a durable visual form. The quick brown fox jumps over the lazy dog.
+      </p>
+      <div class="weight-label">Bold 700</div>
+      <p class="specimen-text" style="font-family:'AbreuDidot 11',serif; font-weight:700; font-size:11pt;">
+        Typography is the craft of endowing human language with a durable visual form. The quick brown fox jumps over the lazy dog.
+      </p>
+    </section>
+
+    <!-- ── Specimen: 16 ── -->
+    <section class="specimen-section">
+      <div class="size-label">AbreuDidot 16 — Subhead / 16pt</div>
+      <div class="weight-label">Light 300</div>
+      <p class="specimen-text" style="font-family:'AbreuDidot 16',serif; font-weight:300; font-size:16pt;">
+        Typography is the craft of endowing human language with a durable visual form.
+      </p>
+      <p class="specimen-text specimen-italic" style="font-family:'AbreuDidot 16',serif; font-weight:300; font-size:16pt;">
+        Typography is the craft of endowing human language with a durable visual form.
+      </p>
+      <div class="weight-label">Medium 500</div>
+      <p class="specimen-text" style="font-family:'AbreuDidot 16',serif; font-weight:500; font-size:16pt;">
+        Typography is the craft of endowing human language with a durable visual form.
+      </p>
+      <div class="weight-label">Bold 700</div>
+      <p class="specimen-text" style="font-family:'AbreuDidot 16',serif; font-weight:700; font-size:16pt;">
+        Typography is the craft of endowing human language with a durable visual form.
+      </p>
+    </section>
+
+    <!-- ── Specimen: 24 ── -->
+    <section class="specimen-section">
+      <div class="size-label">AbreuDidot 24 — Heading / 24pt</div>
+      <div class="weight-label">Light 300</div>
+      <p class="specimen-text" style="font-family:'AbreuDidot 24',serif; font-weight:300; font-size:24pt;">
+        The quick brown fox jumps over the lazy dog.
+      </p>
+      <p class="specimen-text specimen-italic" style="font-family:'AbreuDidot 24',serif; font-weight:300; font-size:24pt;">
+        The quick brown fox jumps over the lazy dog.
+      </p>
+      <div class="weight-label">Medium 500</div>
+      <p class="specimen-text" style="font-family:'AbreuDidot 24',serif; font-weight:500; font-size:24pt;">
+        The quick brown fox jumps over the lazy dog.
+      </p>
+      <div class="weight-label">Bold 700</div>
+      <p class="specimen-text" style="font-family:'AbreuDidot 24',serif; font-weight:700; font-size:24pt;">
+        The quick brown fox jumps over the lazy dog.
+      </p>
+    </section>
+
+    <!-- ── Specimen: 42 ── -->
+    <section class="specimen-section">
+      <div class="size-label">AbreuDidot 42 — Display / 42pt</div>
+      <div class="weight-label">Light 300</div>
+      <p class="specimen-text" style="font-family:'AbreuDidot 42',serif; font-weight:300; font-size:42pt; line-height:1.1;">
+        Hamburgefonstiv
+      </p>
+      <div class="weight-label">Medium 500</div>
+      <p class="specimen-text" style="font-family:'AbreuDidot 42',serif; font-weight:500; font-size:42pt; line-height:1.1;">
+        Hamburgefonstiv
+      </p>
+      <div class="weight-label">Bold 700</div>
+      <p class="specimen-text" style="font-family:'AbreuDidot 42',serif; font-weight:700; font-size:42pt; line-height:1.1;">
+        Hamburgefonstiv
+      </p>
+    </section>
+
+    <!-- ── Specimen: 64 ── -->
+    <section class="specimen-section">
+      <div class="size-label">AbreuDidot 64 — Display Large / 64pt</div>
+      <div class="weight-label">Light 300</div>
+      <p class="specimen-text" style="font-family:'AbreuDidot 64',serif; font-weight:300; font-size:64pt; line-height:1.05;">
+        Abreu
+      </p>
+      <div class="weight-label">Medium 500</div>
+      <p class="specimen-text" style="font-family:'AbreuDidot 64',serif; font-weight:500; font-size:64pt; line-height:1.05;">
+        Didot
+      </p>
+      <div class="weight-label">Bold 700</div>
+      <p class="specimen-text" style="font-family:'AbreuDidot 64',serif; font-weight:700; font-size:64pt; line-height:1.05;">
+        Aa Bb
+      </p>
+    </section>
+
+    <!-- ── Specimen: 96 ── -->
+    <section class="specimen-section">
+      <div class="size-label">AbreuDidot 96 — Banner / 96pt</div>
+      <div class="weight-label">Light 300</div>
+      <p class="specimen-text" style="font-family:'AbreuDidot 96',serif; font-weight:300; font-size:96pt; line-height:1.0; letter-spacing:-0.03em;">
+        Rg
+      </p>
+      <div class="weight-label">Bold 700</div>
+      <p class="specimen-text" style="font-family:'AbreuDidot 96',serif; font-weight:700; font-size:96pt; line-height:1.0; letter-spacing:-0.03em;">
+        Rg
+      </p>
+    </section>
+
+    <!-- ── Usage ── -->
+    <section class="usage-section">
+      <h2>Usage</h2>
+
+      <h3>1. Link a stylesheet</h3>
+      <p>Pick the optical size you need, or load them all:</p>
+<pre>&lt;!-- Single optical size --&gt;
+&lt;link rel="stylesheet"
+      href="https://albinlenell.github.io/fonts/css/abreudidot-24.css"&gt;
+
+&lt;!-- All optical sizes --&gt;
+&lt;link rel="stylesheet"
+      href="https://albinlenell.github.io/fonts/css/abreudidot-all.css"&gt;</pre>
+
+      <h3>2. Apply in CSS</h3>
+      <p>Each optical size registers as a separate font-family:</p>
+<pre>h1 {
+  font-family: 'AbreuDidot 64', serif;
+  font-weight: 300;
+}
+
+body {
+  font-family: 'AbreuDidot 11', serif;
+  font-weight: 300;
+}
+
+em {
+  font-style: italic; /* italic variant loads automatically */
+}</pre>
+
+      <h3>3. Available optical sizes</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Family Name</th>
+            <th>CSS File</th>
+            <th>Intended Use</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>AbreuDidot 06</td><td><code>abreudidot-06.css</code></td><td>Caption, fine print</td></tr>
+          <tr><td>AbreuDidot 11</td><td><code>abreudidot-11.css</code></td><td>Body text</td></tr>
+          <tr><td>AbreuDidot 16</td><td><code>abreudidot-16.css</code></td><td>Subheadings</td></tr>
+          <tr><td>AbreuDidot 24</td><td><code>abreudidot-24.css</code></td><td>Headings</td></tr>
+          <tr><td>AbreuDidot 42</td><td><code>abreudidot-42.css</code></td><td>Display</td></tr>
+          <tr><td>AbreuDidot 64</td><td><code>abreudidot-64.css</code></td><td>Large display</td></tr>
+          <tr><td>AbreuDidot 96</td><td><code>abreudidot-96.css</code></td><td>Banner, poster</td></tr>
+        </tbody>
+      </table>
+
+      <h3>4. Available weights</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Weight</th>
+            <th>CSS Value</th>
+            <th>Styles</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>Light</td><td><code>font-weight: 300</code></td><td>normal, italic</td></tr>
+          <tr><td>Medium</td><td><code>font-weight: 500</code></td><td>normal, italic</td></tr>
+          <tr><td>Bold</td><td><code>font-weight: 700</code></td><td>normal, italic</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>LenéllR&amp;D Fonts · <a href="https://github.com/albinlenell/fonts">GitHub</a></p>
+  </footer>
+
+</body>
+</html>
