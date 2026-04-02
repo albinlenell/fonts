@@ -1,0 +1,51 @@
+/* AbreuDidot 06 — LenéllR&D Fonts
+   https://albinlenell.github.io/fonts/
+   Optical size: 06 */
+
+@font-face {
+  font-family: 'AbreuDidot 06';
+  src: url('../woff2/AbreuDidot-06Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'AbreuDidot 06';
+  src: url('../woff2/AbreuDidot-06LightItalic.woff2') format('woff2');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'AbreuDidot 06';
+  src: url('../woff2/AbreuDidot-06Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'AbreuDidot 06';
+  src: url('../woff2/AbreuDidot-06MediumItalic.woff2') format('woff2');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'AbreuDidot 06';
+  src: url('../woff2/AbreuDidot-06Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'AbreuDidot 06';
+  src: url('../woff2/AbreuDidot-06BoldItalic.woff2') format('woff2');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
